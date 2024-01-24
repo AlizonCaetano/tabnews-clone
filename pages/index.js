@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 const Container = styled.div`
   padding: 0;
   margin: 0;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 
   display: grid;
   height: 100vh;
@@ -12,16 +12,14 @@ const Container = styled.div`
 
   color: #fff;
   background: #222;
-`
+`;
 
 function Home() {
   return (
     <Container>
-      <div>
-        EM CONSTRUÇÃO
-      </div>  
+      <div>EM CONSTRUÇÃO</div>
     </Container>
-  )
+  );
 }
 
 export default Home;
